@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+  
+.Panel {
+    background-color: #fff;
+    padding: 25px;
+  
+    &-destacado {
+      background-color: red;
+    }
+}

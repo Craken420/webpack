@@ -1,0 +1,26 @@
+{
+  "name": "distrijstranspidepennave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:es5": "webpack --mode production",
+    "build:es6": "webpack --mode production --config webpack.config-es6.js",
+    "build:es5jsext": "webpack --mode production --config webpack.config-ScriptExt.js",
+    "build:es6jsext": "webpack --mode production --config webpack.config-es6-ScriptExt.js",
+    "build": "npm run build:es5 && npm run build:es6",
+    "build:jsext": "npm run build:es5jsext && npm run build:es6jsext"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "script-ext-html-webpack-plugin": "^2.1.5",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

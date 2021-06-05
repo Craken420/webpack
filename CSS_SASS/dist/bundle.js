@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Arrancada la aplicación compilando CSS y SaSS")})();

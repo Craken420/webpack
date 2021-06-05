@@ -1,0 +1,16 @@
+npm init -y
+npm i webpack webpack-cli -D
+npm i -D mini-css-extract-plugin
+npm i -D css-loader
+npm i -D html-webpack-plugin
+npm i -D node-sass sass-loader
+crear el archivo css y probar
+    body {
+        background-color: aquamarine;
+    }
+    
+    .Panel {
+        background-color: #fff;
+        padding: 25px;
+    }
+Cambiarlo a sass

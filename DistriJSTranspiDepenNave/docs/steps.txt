@@ -1,0 +1,4 @@
+npm init -y
+npm i -D webpack webpack-cli
+npm i babel-loader @babel/core @babel/preset-env -D
+npm i html-webpack-plugin -D
